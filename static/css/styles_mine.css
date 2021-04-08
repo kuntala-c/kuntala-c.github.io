@@ -1,20 +1,24 @@
 body{
     margin: 0px;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container{
-    padding: 2%;
-    display:grid;
-    grid-template-columns: 1fr;
+    padding: 0;
+	margin:5%;
+	margin-top: 2%;
+	margin-left: 15%;
 }
 
+ .skipped {
+     margin-top: 80%;
+  }
 
 /* Nav Styles */
 .nav-wrapper{
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 5%;
+	margin:5%;
 }
 
 .nav-left-link{
@@ -22,13 +26,16 @@ body{
 }
 
 .navigation-wrapper> .nav-left-link> div{
-    margin-right: 20px;
-    font-size: 0.9em;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 0.5%;
+    font-size: 100%;
     text-transform: uppercase;
+	margin-left: 2%;
 }
 
 .nav-link-wrapper{
-    height: 22px;
+    height: 12%;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -39,7 +46,7 @@ body{
 }
 
 .nav-link-wrapper:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .nav-link-wrapper a{
@@ -78,7 +85,9 @@ body{
 }
 
 .contact-wrapper { 
+	text-align: center;
     grid-area: contact-wrapper; 
+	padding:2%;
 }
 
 .contact-wrapper img{
@@ -96,5 +105,16 @@ body{
 .profile-content-wrapper:hover h2{
     transition: 0.1s;
     color:lightseagreen;
+	font-weight: bold;
 }
 
+.projects-content-wrapper{
+	margin: 7px;
+    grid-area: project-content-wrapper; 
+    padding:10%;
+}
+
+.projects-content-wrapper:hover li, h1{
+    transition: 0.1s;
+    color: seagreen;
+}
