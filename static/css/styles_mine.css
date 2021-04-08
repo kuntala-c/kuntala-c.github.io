@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, white, #99ceff);
 }
 
 .container{
