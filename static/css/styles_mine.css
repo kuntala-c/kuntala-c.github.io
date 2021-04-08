@@ -69,11 +69,11 @@ body{
 
 /* About Me*/
 .two-column-wrapper{
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 10%;
     display: grid;
-    grid-template-columns: 0.75fr 1fr;
-    grid-template-rows: 4fr 1fr;
+    grid-template-columns: 0.5fr 1.35fr;
+    grid-template-rows: 3fr 1fr;
     gap: 1px 1px;
     grid-template-areas: "profile-img-wrapper profile-content-wrapper" "contact-wrapper profile-content-wrapper";
 }
@@ -81,9 +81,12 @@ body{
 
   
 .profile-img-wrapper img{
+	margin-left : 30%;
+	margin-top : 7%;
+	margin-right :0;
     grid-area: profile-img-wrapper;
-    align-content: center;
-    width: 40%;
+    align-content: right;
+    width: 50%;
     border: 2px solid #555
 }
 
