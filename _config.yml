@@ -7,7 +7,7 @@ paginate: 4
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://DiproMondal.github.io/vitae
+url: http://DiproMondal.github.io
 author: Dipro Mondal
 
 # edit this section with your information
@@ -18,11 +18,11 @@ title: Dipro Mondal's Resume
 name: Dipro Mondal
 email_full: mailto:dipro.mondal12ms@gmail.com
 website: github.io/dipro
-website_full: https://jekyller.github.io/dipro
+website_full: https://dipromondal.github.io
 github: trending
 tel: +31 683920381
 tel_full: tel:+31 683920381
-google_maps: 'https://www.google.com/maps/dir/52.1636883,4.502345/Herensingel+7A,+2316+JS+Leiden,+Netherlands'
+google_maps: 'https://www.google.com/maps/place/Herensingel+7A,+2316+JS+Leiden'
 address:
   street: 7A Herensignel
   postcode: 2316 JS
