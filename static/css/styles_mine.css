@@ -23,7 +23,9 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 5%;
-	margin:5%;
+	margin-left:5%;
+	margin-top:5%;
+	margin-right:10%;
 }
 
 .nav-left-link{
@@ -37,11 +39,10 @@ body{
     font-size: 100%;
     text-transform: uppercase;
 	margin-left: 2%;
-	margin-right: 2%;
 }
 
 .nav-link-wrapper{
-    height: 12%;
+    height: 5%;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -119,9 +120,12 @@ body{
 }
 
 .projects-content-wrapper{
-	margin: 7px;
+	margin: 1%;
     grid-area: project-content-wrapper; 
-    padding:10%;
+    padding-left:10%;
+	padding-right:10%;
+	padding-top:2%;
+	padding-bottom:3%
 }
 
 .projects-content-wrapper:hover li, h1{
