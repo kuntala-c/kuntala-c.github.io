@@ -1,6 +1,5 @@
 body{
     margin: 0px;
-    background-color: white; /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, white, #99ceff);
 }
 
@@ -14,6 +13,11 @@ body{
  .skipped {
      margin-top: 80%;
   }
+  
+ .Achieve{
+	padding :2%;
+	font-size: 80%;
+ }
 
 /* Nav Styles */
 .nav-wrapper{
