@@ -1,6 +1,5 @@
 body{
     margin: 0px;
-    background-image: linear-gradient(to bottom right, white, #99ceff);
 }
 
 .container{
@@ -8,6 +7,25 @@ body{
 	margin:5%;
 	margin-top: 2%;
 	margin-left: 15%;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
  .skipped {
@@ -21,6 +39,7 @@ body{
 /* Nav Styles */
 .nav-wrapper{
     display: flex;
+	grid-area: nav-wrapper; 
     justify-content: space-between;
     padding: 5%;
 	margin-left:5%;
@@ -46,6 +65,7 @@ body{
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
+
 .nav-link-wrapper a{
     color: #8a8a8a;
     text-decoration: none;
@@ -86,6 +106,7 @@ body{
 
   
 .profile-img-wrapper img{
+	padding:3%;
 	margin-left : 30%;
 	margin-top : 7%;
 	margin-right :0;
@@ -110,7 +131,7 @@ body{
 
 .profile-content-wrapper{
     grid-area: profile-content-wrapper; 
-    padding:1%;
+    padding:3%;
 }
 
 .profile-content-wrapper:hover h2{
@@ -121,6 +142,7 @@ body{
 
 .projects-content-wrapper{
 	margin: 1%;
+	margin-top:4%;
     grid-area: project-content-wrapper; 
     padding-left:10%;
 	padding-right:10%;
@@ -128,7 +150,13 @@ body{
 	padding-bottom:3%
 }
 
-.projects-content-wrapper:hover li, h1{
+.projects-content-wrapper:hover li, h1, h3{
     transition: 0.1s;
     color: seagreen;
+	
+}
+
+.hover_change_color:hover {
+	transition: 0.1s;
+    color: red;
 }

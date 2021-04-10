@@ -45,12 +45,14 @@ p, address {
 
 header > h1, section > h1 {
     color: #27A822;
+	
 }
 
 header > h1 {
     line-height: 100%;
     font-size: 250%;
     margin-bottom: 20px;
+
 }
 
 .container > header p, .container > header address {
@@ -59,6 +61,11 @@ header > h1 {
 
 .container > header p:last-child {
     margin-bottom: 20px;
+	
+}
+
+.pos_fix {
+	position: relative;
 }
 
 section {

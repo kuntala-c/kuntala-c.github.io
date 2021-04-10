@@ -23,7 +23,7 @@
     <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
 </head>
-<div class="navigation-wrapper">
+	<div class="navigation-wrapper">
 			<div class="nav-left-link">
 				<div class="nav-link-wrapper active-nav-link">
 					<a href="index.html">Portfolio</a>
@@ -39,16 +39,18 @@
 				</div>
 			
 			</div>
-</div>
-<div class="container">
-    <header class="three columns">
-		<br/>
-		<h1>Dipro Mondal Portfolio</h1>
-        <h1 class = "skipped">Contact</h1>
-        <p>
-            <a href="{{ site.tel_full }}">{{ site.tel }}</a>
-			<a href="mailto:dipro.mondal12ms@gmail.com"> <small> dipro.mondal12ms@gmail.com </small></a> 
-        </p>
+	</div>
+
+	<div class="container">
+		<div class="sticky">
+		<header class="three columns">
+			<br/>
+			<h1 >Dipro Mondal's Portfolio</h1>
+			<h1 class = "skipped">Contact</h1>
+			<p>
+				<a href="{{ site.tel_full }}">{{ site.tel }}</a>
+				<a href="mailto:dipro.mondal12ms@gmail.com"> <small> dipro.mondal12ms@gmail.com </small></a> 
+			</p>
                         
         <address>
             <a href="{{ site.google_maps }}">
@@ -66,14 +68,16 @@
             <a href="https://github.com/DiproMondal?tab=repositories"><i class="fa fa-github"></i> Github</a> <br/>
             <a href="https://www.linkedin.com/in/dipro-mondal-96a85298/"><i class="fa fa-linkedin"></i> LinkedIn</a>
         </p>
-    </header>
-    <div class="thirteen columns clearfix">
-		<img src="{{ site.baseurl }}static/img/profile.png" class="me">
+		</header>
+		</div>
+		<div class="thirteen columns clearfix">
+			<img src="{{ site.baseurl }}static/img/profile.png" class="me">
 		
 
-        {{ content }}
-    </div>
-</div>
+			{{ content }}
+		</div>
+	</div>
+
 
 </body>
 </html>
