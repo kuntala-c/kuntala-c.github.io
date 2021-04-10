@@ -14,9 +14,9 @@ div.sticky {
   top: 0;
 }
 
-@media screen and (min-width: 420px) {
+@media (max-width: 600px) {
     div.sticky {
-      position: relative;
+      position: initial;
 	  top: auto;
     }
 }
