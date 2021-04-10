@@ -17,6 +17,7 @@ div.sticky {
 @media screen and (min-width: 420px) {
     div.sticky {
       position: relative;
+	  top: auto;
     }
 }
 
