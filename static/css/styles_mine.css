@@ -14,6 +14,12 @@ div.sticky {
   top: 0;
 }
 
+@media screen and (min-width: 420px) {
+    div.sticky {
+      position: relative;
+    }
+}
+
 .parallax {
   /* The image used */
   background-image: url('img_parallax.jpg');
