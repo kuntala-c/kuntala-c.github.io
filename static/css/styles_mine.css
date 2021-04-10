@@ -74,6 +74,7 @@ div.sticky {
 
 .nav-link-wrapper:hover{
     border-bottom: 2px solid black;
+	-webkit-transform: scale(1.15); 
 }
 
 .nav-link-wrapper a{
@@ -137,7 +138,7 @@ div.sticky {
 .profile-content-wrapper:hover h2{
     transition: 0.1s;
     color:lightseagreen;
-	font-weight: bold;
+	transition: -webkit-transform scale(1.02); 
 }
 
 .projects-content-wrapper{
@@ -159,4 +160,5 @@ div.sticky {
 .hover_change_color:hover {
 	transition: 0.1s;
     color: red;
+	-webkit-transform: scale(1.02); 
 }
