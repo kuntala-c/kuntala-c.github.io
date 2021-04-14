@@ -28,7 +28,7 @@ address:
   postcode: 2316 JS
   city: Leiden
   country: the Netherlands
-google_analytics: UA-69300817-1
+google_analytics: G-WXTLEDKBGY
 
 # needed for travis-ci build
 exclude: [vendor]
