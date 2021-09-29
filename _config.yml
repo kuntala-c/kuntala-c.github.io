@@ -8,7 +8,7 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: https://kuntalachakraborty.github.io
+url: https://kuntala-c.github.io
 author: Kuntala Chakraborty
 
 # edit this section with your information
@@ -19,7 +19,7 @@ title: Kuntala Chakraborty's Resume
 name: Kuntala Chakraborty
 email_full: mailto:kuntalac@gmail.com
 website: github.io/kuntala-c
-website_full: https://kuntalachakraborty.github.io
+website_full: https://kuntala-c.github.io
 github: trending
 tel: +31 616500901
 tel_full: tel:+31 616500901
